@@ -1,0 +1,9 @@
+"Unchecked Send" Bug
+
+URL: http://hackingdistributed.com/2016/06/16/scanning-live-ethereum-contracts-for-bugs/#Listing2
+
+"Collaborative Bargaining"
+
+"Recursive Calling Vulnerability": This is where an attacker called the “split” function, and then calls the split function recursively inside of the split, thereby collecting ether many times over in a single transaction.
+
+"51% Attack" When any miner or mining pool gets full control of the network, they'd be able to manipulate the public ledget at will. Q: But is it really feasible? 
