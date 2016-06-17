@@ -1,0 +1,26 @@
+# Here's some notes I found from Buterin's keynote speech on "State of the Onion - Smart Contracts for Smart Nations"
+
+- Way to identify "faulty" or "unsafe" contract:
+
+While generating random number putting your seed in a private method doesn't mean the world can't see it. Your contract is in a public blockchain.
+
+Variable mixups:
+Ex: payoutCursor_Id_ & payoutCursor_Id are differnt things 
+
+How do we avoid such things?
+
+Vitalik's Ideas on Blockchains in 2025:
+
+It's gonna be like a Decentralized Operating System. That let's you do everything that you do theoretically you do today w min loss of scalability, security, privacy, latency and w the gain of decentralization and cryptographic encryption.
+
+User Programs
+--
+(Operating System)
+User Interface
+--
+System Calls
+--
+File System / IO / Prog Control/ Error Mgmt / Auditing / Security
+(Up to here)
+--
+Decentralized Cloud

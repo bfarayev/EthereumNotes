@@ -1,0 +1,23 @@
+##
+I keep basic how-to I encounter during my initial works using Ethereum. 
+It's not complete but I put the main commands and links I find throughout 
+my journey.
+##
+
+How to start synchronizing the blocks in fast mode
+
+$ geth --rpc --nat=none --cache=2024
+
+Very good tutorial:
+
+$ http://consensys.github.io/developers/articles/101-noob-intro/#partiii
+
+How to run geth console on local machine:
+
+$ geth --rpc --rpcapi="db,eth,net,web3,personal" --rpcport "8545" --rpcaddr "127.0.0.1" --rpccorsdomain "localhost" console
+
+
+
+# Installing Solidity | Truffle | TestRPC | etc.
+
+1) Truffle: npm install -g ethereumjs-testrpc
