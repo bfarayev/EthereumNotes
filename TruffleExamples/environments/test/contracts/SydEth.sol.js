@@ -5,17 +5,17 @@
 (function() {
 
   var contract_data = {
-    abi: [{"constant":false,"inputs":[{"name":"amount","type":"uint256"},{"name":"conversionRate","type":"uint256"}],"name":"convert","outputs":[{"name":"convertedAmount","type":"uint256"}],"type":"function"}],
-    binary: "606060405260358060106000396000f36503050000000050606060405260e060020a600035046396e4ee3d81146024575b6007565b602435600435026060908152602090f3",
-    unlinked_binary: "606060405260358060106000396000f36503050000000050606060405260e060020a600035046396e4ee3d81146024575b6007565b602435600435026060908152602090f3",
-    address: "0x531040011dbbe25a603a585c69c3064f0979f67e",
+    abi: [],
+    binary: "606060405260068060106000396000f3606060405200",
+    unlinked_binary: "606060405260068060106000396000f3606060405200",
+    address: "",
     generated_with: "2.0.9",
-    contract_name: "ConvertLib"
+    contract_name: "SydEth"
   };
 
   function Contract() {
     if (Contract.Pudding == null) {
-      throw new Error("ConvertLib error: Please call load() first before creating new instance of this contract.");
+      throw new Error("SydEth error: Please call load() first before creating new instance of this contract.");
     }
 
     Contract.Pudding.apply(this, arguments);
@@ -32,7 +32,7 @@
 
   Contract.new = function() {
     if (Contract.Pudding == null) {
-      throw new Error("ConvertLib error: Please call load() first before calling new().");
+      throw new Error("SydEth error: Please call load() first before calling new().");
     }
 
     return Contract.Pudding.new.apply(Contract, arguments);
@@ -40,7 +40,7 @@
 
   Contract.at = function() {
     if (Contract.Pudding == null) {
-      throw new Error("ConvertLib error: Please call load() first before calling at().");
+      throw new Error("SydEth error: Please call load() first before calling at().");
     }
 
     return Contract.Pudding.at.apply(Contract, arguments);
@@ -48,7 +48,7 @@
 
   Contract.deployed = function() {
     if (Contract.Pudding == null) {
-      throw new Error("ConvertLib error: Please call load() first before calling deployed().");
+      throw new Error("SydEth error: Please call load() first before calling deployed().");
     }
 
     return Contract.Pudding.deployed.apply(Contract, arguments);
@@ -59,7 +59,7 @@
   } else {
     // There will only be one version of Pudding in the browser,
     // and we can use that.
-    window.ConvertLib = Contract;
+    window.SydEth = Contract;
   }
 
 })();

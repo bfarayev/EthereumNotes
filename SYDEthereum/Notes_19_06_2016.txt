@@ -1,0 +1,28 @@
+# Notes:
+
+TESTRPC: mockup Ethereum blockchain
+
+npm install -g ethereumjs-testrpc
+
+Testing with Mocha and Chai
+
+$ truffle init # for initiating project
+$ truffle compile
+$ truffle deploy
+$ truffle watch # watch your filesystem for changes and recompile and redeploy your contracts
+$ truffle serve
+
+Truffle - Automated testing
+
+$ truffle test # write your own tests
+
+WEB3 + Meteor - etc.
+
+$ meteor create ProjFolder
+$ cd ProjFolder
+$ meteor
+
+For different packages and stuff: https://atmospherejs.com
+
+$ npm install web3
+

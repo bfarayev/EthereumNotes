@@ -21,3 +21,7 @@ $ geth --rpc --rpcapi="db,eth,net,web3,personal" --rpcport "8545" --rpcaddr "127
 # Installing Solidity | Truffle | TestRPC | etc.
 
 1) Truffle: npm install -g ethereumjs-testrpc
+
+# How to build Ethereum apps with Truffle:
+
+https://www.youtube.com/watch?v=GPP6uAq15d8
